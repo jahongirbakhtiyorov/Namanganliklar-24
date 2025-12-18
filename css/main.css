@@ -1,0 +1,238 @@
+body {
+    font-family: "Rubik", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #F6F6F6;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* header start */
+.header-inner-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-inner-top-right-search {
+    margin: 0 auto;
+    border: 5px solid #FFFFFF;
+    border-radius: 16px;
+
+}
+
+.header-inner-top-right-link {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #FFFF;
+    background-color: #7296EC;
+    padding: 10px 20px;
+    border: 1px solid #7296EC;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.header-inner-top-right-link:hover {
+    background-color: #354c82;
+
+}
+
+.header-inner-bottom {
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.header-inner-bottom-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-inner-bottom-list-item {
+    list-style: none;
+}
+
+.header-inner-bottom-list-item-link {
+    text-decoration: none;
+    color: #7F7F7F;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    transition: 0.3s ease-in-out;
+
+}
+
+.header-inner-bottom-list-item-link:hover {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+
+}
+
+/* header finished */
+/* new start */
+
+.new-inner {
+    padding: 40px 0;
+}
+
+
+.new-inner-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.new-inner-list-item {
+    width: 32%;
+    background: #fff;
+}
+
+.new-inner-list-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.new-inner-list-item-text {
+    font-size: 16px;
+    color: #4A4B4C;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.new-inner-list-item img {
+    width: 100%;
+    display: block;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/* new finished */
+/* img-2 start */
+.img-2-inner {
+    background-image: url(../images/bkg.png);
+    background-position: calc(50% - 1px) calc(50% - 1px);
+    background-repeat: no-repeat;
+    background-size: 1400px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 24px 0;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.img-2-inner-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0 20px;
+}
+
+.img-2-inner-link {
+    background-color: #F78B3B;
+    color: #FFFF;
+    font-size: 18px;
+    font-family: 500;
+    margin: 0 70px;
+    padding: 13px 30px;
+    border: 1px solid #F78B3B;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.img-2-inner-link:hover {
+    background-color: #7d5434;
+}
+
+/* img-2 finished */
+/* world start */
+.world-inner {
+    display: flex;
+}
+
+.world-inner-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    padding: 60px 0;
+}
+
+.world-inner-list {
+    max-width: 790px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.world-inner-list-item {
+    display: flex;
+    gap: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+.world-inner-list-item img {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.world-inner-list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000;
+    margin: 0 0 8px 0;
+}
+
+
+.world-inner-list-item-text {
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+    margin: 0;
+}
+
+
+.world-inner-left-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #EAEAEA;
+    color: #000;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 17px 0;
+    margin-top: 15px;
+    transition: 0.3s ease;
+}
+
+
+.world-inner-left-link:hover {
+    background-color: #999696;
+}
+
+.world-inner-right-img {
+    cursor: pointer;
+}
+
+.world-inner-right-img-1 {
+    border: 1px solid white;
+    border-radius: 8px;
+}
