@@ -220,7 +220,7 @@ body {
 
 /* img-2 finished */
 /* world start */
-.world-inner-title {
+/* .world-inner-title {
     font-size: 24px;
     font-weight: 500;
     color: #000;
@@ -232,9 +232,7 @@ body {
     border-radius: 15px;
 }
 
-/* .world-inner-left-left-list-item {
-    display: flex;
-} */
+
 .world-inner-left-left-img-box-img {
     border-radius: 10px;
 }
@@ -268,6 +266,57 @@ body {
     font-weight: 400;
     color: #4A4B4C;
     margin: 0 20px 10px 15px;
+} */
+
+.world-inner {
+    display: flex;
+    gap: 10px;
+}
+
+.world-left {
+    width: 797px;
+    margin: 0;
+}
+
+.world-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+    color: #000;
+}
+
+.world-list {
+    list-style: none;
+}
+
+.world-item {
+    display: flex;
+    gap: 10px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 17px;
+    align-items: center;
+}
+
+.world-img {
+    width: 210px;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.world-item-title {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+
+.world-item-desc {
+    font-size: 16px;
+    color: #4A4B4C55;
+    font-weight: 400;
+    margin: 0 0 17px 0;
 }
 
 .extra {
@@ -275,6 +324,50 @@ body {
     align-items: center;
 }
 
+.world-inner-left-link {
+    background-color: #EAEAEA;
+    color: #000;
+    margin: 17px 0 100px 0;
+    text-decoration: none;
+    padding: 17px 343px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.world-inner-left-link:hover {
+    background-color: #a7a7a7;
+}
+.world-right-top {
+    width: 393px;
+    background: #ffffff;
+    padding: 20px 0;
+    border-radius: 15px;
+}
+
+.world-right-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+
+}
+
+.world-right-text {
+    font-size: 13px;
+    color: #5E5F61;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.world-right-bottom-img {
+    border-radius: 15px;
+}
+
+
+
+
+/* world finished */
 /* footer start */
 .footer {
     background: #7297EF;
@@ -307,13 +400,11 @@ body {
     margin: 0;
 }
 
-/* o‘ng tomon wrapper */
 .footer-inner-top-right-wrapper {
     display: flex;
     gap: 80px;
 }
 
-/* o‘ng listlar */
 .footer-inner-top-right-list {
     list-style: none;
     padding: 0;
@@ -329,7 +420,7 @@ body {
     font-size: 16px;
     color: #ffffff;
     font-weight: 500;
-    transition: 0.3s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 
 .footer-inner-top-right-list-link:hover {
@@ -364,4 +455,5 @@ body {
 .footer-inner-bottom-social-link:hover {
     transform: translateY(-3px);
 }
+
 /* foooter finished */
