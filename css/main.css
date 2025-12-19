@@ -287,6 +287,7 @@ body {
 
 .world-list {
     list-style: none;
+    margin-bottom: 17px;
 }
 
 .world-item {
@@ -327,7 +328,7 @@ body {
 .world-inner-left-link {
     background-color: #EAEAEA;
     color: #000;
-    margin: 17px 0 100px 0;
+   margin-bottom: 100px;
     text-decoration: none;
     padding: 17px 343px;
     border-radius: 10px;
