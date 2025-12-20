@@ -321,6 +321,7 @@ body {
 /* world finished */
 /* footer start */
 .footer {
+    margin: 100px 0 0 0 ;
     background: #7297EF;
     padding: 40px 0;
 }
